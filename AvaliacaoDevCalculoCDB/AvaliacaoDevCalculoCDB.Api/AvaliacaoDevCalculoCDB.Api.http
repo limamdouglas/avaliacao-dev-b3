@@ -1,0 +1,6 @@
+@AvaliacaoDevCalculoCDB.Api_HostAddress = http://localhost:5157
+
+GET {{AvaliacaoDevCalculoCDB.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
