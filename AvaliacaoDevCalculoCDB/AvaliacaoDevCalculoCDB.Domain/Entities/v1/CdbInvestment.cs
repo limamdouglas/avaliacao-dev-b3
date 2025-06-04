@@ -31,7 +31,7 @@ public class CdbInvestment
         return GrossReturn - (profit * taxRate);
     }
 
-    private static decimal GetTaxRate(int months)
+    public static decimal GetTaxRate(int months)
     {
         return months switch
         {

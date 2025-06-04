@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.tests\\service\\cdbinvestmentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|solutionrelative:avaliacaodevcalculocdb.tests\\service\\cdbinvestmentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.tests\\domain\\cdbinvestmenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|solutionrelative:avaliacaodevcalculocdb.tests\\domain\\cdbinvestmenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.domain\\entities\\v1\\cdbinvestment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|solutionrelative:avaliacaodevcalculocdb.domain\\entities\\v1\\cdbinvestment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.application\\services\\v1\\cdbinvestmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|solutionrelative:avaliacaodevcalculocdb.application\\services\\v1\\cdbinvestmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.application\\avaliacaodevcalculocdb.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|solutionrelative:avaliacaodevcalculocdb.application\\avaliacaodevcalculocdb.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.domain\\resources\\v1\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,14 +43,6 @@
       "RelativeMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|solutionrelative:avaliacaodevcalculocdb.domain\\dtos\\v1\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.domain\\entities\\v1\\cdbinvestment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|solutionrelative:avaliacaodevcalculocdb.domain\\entities\\v1\\cdbinvestment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.application\\avaliacaodevcalculocdb.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|solutionrelative:avaliacaodevcalculocdb.application\\avaliacaodevcalculocdb.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DD19B7E-4726-415A-9A9D-C1DA36D03967}|AvaliacaoDevCalculoCDB.Api\\AvaliacaoDevCalculoCDB.Api.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DD19B7E-4726-415A-9A9D-C1DA36D03967}|AvaliacaoDevCalculoCDB.Api\\AvaliacaoDevCalculoCDB.Api.csproj|solutionrelative:avaliacaodevcalculocdb.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.domain\\dtos\\v1\\response\\cdbinvestmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|solutionrelative:avaliacaodevcalculocdb.domain\\dtos\\v1\\response\\cdbinvestmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|solutionrelative:avaliacaodevcalculocdb.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +70,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CdbInvestmentServiceTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\Service\\CdbInvestmentServiceTests.cs",
+              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Tests\\Service\\CdbInvestmentServiceTests.cs",
+              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\Service\\CdbInvestmentServiceTests.cs",
+              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Tests\\Service\\CdbInvestmentServiceTests.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvx4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:59:18.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CdbInvestmentTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\Domain\\CdbInvestmentTests.cs",
+              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Tests\\Domain\\CdbInvestmentTests.cs",
+              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\Domain\\CdbInvestmentTests.cs",
+              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Tests\\Domain\\CdbInvestmentTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:57:08.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Messages.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Messages.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Messages.cs",
               "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Messages.cs",
               "RelativeToolTip": "AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Messages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T13:06:43.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Dtos\\v1\\Response\\Response.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Dtos\\v1\\Response\\Response.cs",
@@ -92,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "AvaliacaoDevCalculoCDB.Application",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj",
@@ -105,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CdbInvestmentController.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Api\\Controllers\\CdbInvestmentController.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Api\\Controllers\\CdbInvestmentController.cs",
@@ -118,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Api\\Program.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Api\\Program.cs",
@@ -131,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CdbInvestmentRequestDto.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Dtos\\v1\\Request\\CdbInvestmentRequestDto.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Dtos\\v1\\Request\\CdbInvestmentRequestDto.cs",
@@ -144,20 +174,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CdbInvestmentService.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Application\\Services\\v1\\CdbInvestmentService.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Application\\Services\\v1\\CdbInvestmentService.cs",
               "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Application\\Services\\v1\\CdbInvestmentService.cs",
               "RelativeToolTip": "AvaliacaoDevCalculoCDB.Application\\Services\\v1\\CdbInvestmentService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwDQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvzMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T08:55:41.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CdbInvestmentResponseDto.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Dtos\\v1\\Response\\CdbInvestmentResponseDto.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Dtos\\v1\\Response\\CdbInvestmentResponseDto.cs",
@@ -170,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ICdbInvestmentService.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Application\\Contracts\\v1\\Services\\ICdbInvestmentService.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Application\\Contracts\\v1\\Services\\ICdbInvestmentService.cs",
@@ -183,20 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T01:57:58.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Constants.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Constants.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Constants.cs",
@@ -209,13 +226,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "CdbInvestment.cs",
               "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
               "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
               "RelativeToolTip": "AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T01:39:08.986Z",
               "EditorCaption": ""
