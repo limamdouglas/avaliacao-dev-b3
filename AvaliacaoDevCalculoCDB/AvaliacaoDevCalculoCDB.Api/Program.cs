@@ -1,8 +1,5 @@
 using AvaliacaoDevCalculoCDB.Application.Contracts.v1.Services;
 using AvaliacaoDevCalculoCDB.Application.Services.v1;
-using AvaliacaoDevCalculoCDB.Application.Validators;
-using FluentValidation;
-using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +11,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICdbInvestmentService, CdbInvestmentService>();
-builder.Services.AddValidatorsFromAssemblyContaining<CdbInvestmentRequestValidator>();
 
 var app = builder.Build();
 
