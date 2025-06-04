@@ -52,3 +52,12 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Arquivos e pastas específicas do Visual Studio
+.vs/
+*.db
+*.db-shm
+*.db-wal
+*.dtbcache.v2
+FileContentIndex/
+DesignTimeBuild/

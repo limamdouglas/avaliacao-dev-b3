@@ -1,12 +1,75 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.domain\\entities\\v1\\cdbinvestment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|solutionrelative:avaliacaodevcalculocdb.domain\\entities\\v1\\cdbinvestment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|solutionrelative:avaliacaodevcalculocdb.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.domain\\resources\\v1\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|solutionrelative:avaliacaodevcalculocdb.domain\\resources\\v1\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:57:58.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Constants.cs",
+              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Constants.cs",
+              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Constants.cs",
+              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Domain\\Resources\\v1\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:43:44.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CdbInvestment.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
+              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
+              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
+              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:39:08.986Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
