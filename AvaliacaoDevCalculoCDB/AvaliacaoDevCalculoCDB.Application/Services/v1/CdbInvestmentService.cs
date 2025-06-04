@@ -7,12 +7,14 @@ namespace AvaliacaoDevCalculoCDB.Application.Services.v1;
 
 public class CdbInvestmentService : ICdbInvestmentService
 {
-    public CdbInvestmentResponseDto CalculateCdbInvestment(CdbInvestmentRequestDto dto)
+    public Response<CdbInvestmentResponseDto> CalculateCdbInvestment(CdbInvestmentRequestDto dto)
     {
-        //if (dto.InitialValue <= 0)
-        //    throw new ArgumentException("O valor inicial deve ser maior que zero.");
-        //if (dto.Months < 1)
-        //    throw new ArgumentException("O prazo deve ser maior que zero.");
+        if (dto.InitialValue <= 0)
+            return new Response<CdbInvestmentResponseDto>(400, "O valor inicial deve ser maior que zero.");
+
+        if (dto.Months < 1)
+            return new Response<CdbInvestmentResponseDto>(400, "O prazo deve ser maior que zero.");
+
 
         var investment = new CdbInvestment
         {
@@ -21,10 +23,12 @@ public class CdbInvestmentService : ICdbInvestmentService
 
         investment.Calculate(dto.Months);
 
-        return new CdbInvestmentResponseDto
+        var responseDto = new CdbInvestmentResponseDto
         {
             GrossReturn = investment.GrossReturn,
             NetReturn = investment.NetReturn
         };
+
+        return new Response<CdbInvestmentResponseDto>(200, "Cálculo realizado com sucesso.", responseDto);
     }
 }

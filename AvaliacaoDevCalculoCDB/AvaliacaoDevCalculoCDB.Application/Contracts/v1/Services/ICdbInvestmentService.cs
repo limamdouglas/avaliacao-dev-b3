@@ -5,5 +5,5 @@ namespace AvaliacaoDevCalculoCDB.Application.Contracts.v1.Services;
 
 public interface ICdbInvestmentService
 {
-    CdbInvestmentResponseDto CalculateCdbInvestment(CdbInvestmentRequestDto dto);
+    Response<CdbInvestmentResponseDto> CalculateCdbInvestment(CdbInvestmentRequestDto dto);
 }

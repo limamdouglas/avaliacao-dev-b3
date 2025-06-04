@@ -18,13 +18,7 @@ public class CdbInvestmentController : ControllerBase
     [HttpPost("calculate")]
     public IActionResult Calculate([FromBody] CdbInvestmentRequestDto request)
     {
-        if (!ModelState.IsValid)
-        {
-            return BadRequest(ModelState);
-        }
-
-        var result = _cdbInvestmentService.CalculateCdbInvestment(request);
-
-        return Ok(result);
+        var response = _cdbInvestmentService.CalculateCdbInvestment(request);
+        return StatusCode(response.StatusCode, response);
     }
 }

@@ -10,9 +10,9 @@ public class CdbInvestment
 
     public void Calculate(int months)
     {
-        GrossReturn = CalculateGrossReturn(months);
+        GrossReturn = Math.Round(CalculateGrossReturn(months), 2);
         var taxRate = GetTaxRate(months);
-        NetReturn = CalculateNetReturn(taxRate);
+        NetReturn = Math.Round(CalculateNetReturn(taxRate), 2);
     }
 
     private decimal CalculateGrossReturn(int months)
