@@ -7,16 +7,14 @@ namespace AvaliacaoDevCalculoCDB.Tests
         [Fact]
         public void Calculate_ShouldReturnCorrectGrossAndNetReturns()
         {
-            // Arrange
             decimal initialValue = 1000m;
             int months = 12;
-            var cdbInvestment = new CdbInvestment();
-
-            // Act
-            cdbInvestment.InitialValue = initialValue;
+            var cdbInvestment = new CdbInvestment
+            {
+                InitialValue = initialValue
+            };
             cdbInvestment.Calculate(months);
 
-            // Assert
             Assert.Equal(1103.06m, Math.Round(cdbInvestment.GrossReturn, 2)); 
             Assert.Equal(1082.45m, Math.Round(cdbInvestment.NetReturn, 2));   
         }
