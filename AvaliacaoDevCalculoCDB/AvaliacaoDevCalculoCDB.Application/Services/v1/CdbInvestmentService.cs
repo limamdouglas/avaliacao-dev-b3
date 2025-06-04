@@ -2,19 +2,35 @@
 using AvaliacaoDevCalculoCDB.Domain.Dtos.v1.Request;
 using AvaliacaoDevCalculoCDB.Domain.Dtos.v1.Response;
 using AvaliacaoDevCalculoCDB.Domain.Entities.v1;
+using AvaliacaoDevCalculoCDB.Domain.Resources.v1;
+using Microsoft.Extensions.Logging;
 
 namespace AvaliacaoDevCalculoCDB.Application.Services.v1;
 
 public class CdbInvestmentService : ICdbInvestmentService
 {
+    private readonly ILogger<CdbInvestmentService> _logger;
+
+    public CdbInvestmentService(ILogger<CdbInvestmentService> logger)
+    {
+        _logger = logger;
+    }
+
     public Response<CdbInvestmentResponseDto> CalculateCdbInvestment(CdbInvestmentRequestDto dto)
     {
+        _logger.LogInformation(Messages.ServiceStart);
+
         if (dto.InitialValue <= 0)
-            return new Response<CdbInvestmentResponseDto>(400, "O valor inicial deve ser maior que zero.");
+        {
+            _logger.LogWarning(Messages.InvalidInitialValueLog, dto.InitialValue);
+            return new Response<CdbInvestmentResponseDto>(400, Messages.InvalidInitialValue);
+        }
 
         if (dto.Months < 1)
-            return new Response<CdbInvestmentResponseDto>(400, "O prazo deve ser maior que zero.");
-
+        {
+            _logger.LogWarning(Messages.InvalidPeriodLog, dto.Months);
+            return new Response<CdbInvestmentResponseDto>(400, Messages.InvalidPeriod);
+        }
 
         var investment = new CdbInvestment
         {
@@ -29,6 +45,9 @@ public class CdbInvestmentService : ICdbInvestmentService
             NetReturn = investment.NetReturn
         };
 
-        return new Response<CdbInvestmentResponseDto>(200, "Cálculo realizado com sucesso.", responseDto);
+        _logger.LogInformation(Messages.CalculationSuccessLog, dto.InitialValue, dto.Months);
+        _logger.LogInformation(Messages.ServiceEnd);
+
+        return new Response<CdbInvestmentResponseDto>(200, Messages.CalculationSuccess, responseDto);
     }
 }
