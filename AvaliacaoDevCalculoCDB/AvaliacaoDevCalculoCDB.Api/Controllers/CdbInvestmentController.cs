@@ -6,14 +6,9 @@ namespace AvaliacaoDevCalculoCDB.Api.Controllers;
 
 [ApiController]
 [Route("api/v1/[controller]")]
-public class CdbInvestmentController : ControllerBase
+public class CdbInvestmentController(ICdbInvestmentService cdbInvestmentService) : ControllerBase
 {
-    private readonly ICdbInvestmentService _cdbInvestmentService;
-
-    public CdbInvestmentController(ICdbInvestmentService cdbInvestmentService)
-    {
-        _cdbInvestmentService = cdbInvestmentService;
-    }
+    private readonly ICdbInvestmentService _cdbInvestmentService = cdbInvestmentService;
 
     [HttpPost("calculate")]
     public IActionResult Calculate([FromBody] CdbInvestmentRequestDto request)

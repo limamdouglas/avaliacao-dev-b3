@@ -7,14 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace AvaliacaoDevCalculoCDB.Application.Services.v1;
 
-public class CdbInvestmentService : ICdbInvestmentService
+public class CdbInvestmentService(ILogger<CdbInvestmentService> logger) : ICdbInvestmentService
 {
-    private readonly ILogger<CdbInvestmentService> _logger;
-
-    public CdbInvestmentService(ILogger<CdbInvestmentService> logger)
-    {
-        _logger = logger;
-    }
+    private readonly ILogger<CdbInvestmentService> _logger = logger;
 
     public Response<CdbInvestmentResponseDto> CalculateCdbInvestment(CdbInvestmentRequestDto dto)
     {
