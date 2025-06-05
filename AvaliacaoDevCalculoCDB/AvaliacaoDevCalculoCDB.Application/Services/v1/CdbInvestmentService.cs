@@ -15,34 +15,33 @@ public class CdbInvestmentService(ILogger<CdbInvestmentService> logger) : ICdbIn
     {
         _logger.LogInformation(Messages.ServiceStart);
 
-        if (dto.InitialValue <= 0)
+        try
         {
-            _logger.LogWarning(Messages.InvalidInitialValueLog, dto.InitialValue);
-            return new Response<CdbInvestmentResponseDto>(400, Messages.InvalidInitialValue);
+            var investment = new CdbInvestment(dto.InitialValue);
+            investment.Calculate(dto.Months);
+
+            var responseDto = new CdbInvestmentResponseDto
+            {
+                GrossReturn = investment.GrossReturn,
+                NetReturn = investment.NetReturn
+            };
+
+            _logger.LogInformation(Messages.CalculationSuccessLog, dto.InitialValue, dto.Months);
+            return new Response<CdbInvestmentResponseDto>(200, Messages.CalculationSuccess, responseDto);
         }
-
-        if (dto.Months < 1)
+        catch (ArgumentException ex)
         {
-            _logger.LogWarning(Messages.InvalidPeriodLog, dto.Months);
-            return new Response<CdbInvestmentResponseDto>(400, Messages.InvalidPeriod);
+            _logger.LogWarning(ex, ex.Message);
+            return new Response<CdbInvestmentResponseDto>(400, ex.Message);
         }
-
-        var investment = new CdbInvestment
+        catch (Exception ex)
         {
-            InitialValue = dto.InitialValue
-        };
-
-        investment.Calculate(dto.Months);
-
-        var responseDto = new CdbInvestmentResponseDto
+            _logger.LogError(ex, Messages.UnexpectedError);
+            return new Response<CdbInvestmentResponseDto>(500, Messages.UnexpectedError);
+        }
+        finally
         {
-            GrossReturn = investment.GrossReturn,
-            NetReturn = investment.NetReturn
-        };
-
-        _logger.LogInformation(Messages.CalculationSuccessLog, dto.InitialValue, dto.Months);
-        _logger.LogInformation(Messages.ServiceEnd);
-
-        return new Response<CdbInvestmentResponseDto>(200, Messages.CalculationSuccess, responseDto);
+            _logger.LogInformation(Messages.ServiceEnd);
+        }
     }
 }

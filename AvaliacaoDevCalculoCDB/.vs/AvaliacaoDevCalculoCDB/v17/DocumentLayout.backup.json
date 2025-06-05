@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.web\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|solutionrelative:avaliacaodevcalculocdb.web\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.tests\\service\\cdbinvestmentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|solutionrelative:avaliacaodevcalculocdb.tests\\service\\cdbinvestmentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DD19B7E-4726-415A-9A9D-C1DA36D03967}|AvaliacaoDevCalculoCDB.Api\\AvaliacaoDevCalculoCDB.Api.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.api\\controllers\\cdbinvestmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DD19B7E-4726-415A-9A9D-C1DA36D03967}|AvaliacaoDevCalculoCDB.Api\\AvaliacaoDevCalculoCDB.Api.csproj|solutionrelative:avaliacaodevcalculocdb.api\\controllers\\cdbinvestmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.tests\\domain\\cdbinvestmenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819826FF-FE3F-473E-8125-FF9DB6874EA6}|AvaliacaoDevCalculoCDB.Tests\\AvaliacaoDevCalculoCDB.Tests.csproj|solutionrelative:avaliacaodevcalculocdb.tests\\domain\\cdbinvestmenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.application\\services\\v1\\cdbinvestmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|solutionrelative:avaliacaodevcalculocdb.application\\services\\v1\\cdbinvestmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.web\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|solutionrelative:avaliacaodevcalculocdb.web\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.web\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|solutionrelative:avaliacaodevcalculocdb.web\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DD19B7E-4726-415A-9A9D-C1DA36D03967}|AvaliacaoDevCalculoCDB.Api\\AvaliacaoDevCalculoCDB.Api.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DD19B7E-4726-415A-9A9D-C1DA36D03967}|AvaliacaoDevCalculoCDB.Api\\AvaliacaoDevCalculoCDB.Api.csproj|solutionrelative:avaliacaodevcalculocdb.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.web\\src\\services\\cdb-investment.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|solutionrelative:avaliacaodevcalculocdb.web\\src\\services\\cdb-investment.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.web\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|solutionrelative:avaliacaodevcalculocdb.web\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.web\\src\\app\\app.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{B235B682-E194-4DEB-4FE6-00388357F927}|AvaliacaoDevCalculoCDB.Web\\AvaliacaoDevCalculoCDB.Web.esproj|solutionrelative:avaliacaodevcalculocdb.web\\src\\app\\app.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.application\\contracts\\v1\\services\\icdbinvestmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0673574D-09D0-3DEA-3A9D-5140B8D2E767}|AvaliacaoDevCalculoCDB.Application\\AvaliacaoDevCalculoCDB.Application.csproj|solutionrelative:avaliacaodevcalculocdb.application\\contracts\\v1\\services\\icdbinvestmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|c:\\projetos\\estudo\\avaliacao-dev-b3\\avaliacaodevcalculocdb\\avaliacaodevcalculocdb.domain\\entities\\v1\\cdbinvestment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15C6A90-BC6E-46D5-A210-00E03D94B19D}|AvaliacaoDevCalculoCDB.Domain\\AvaliacaoDevCalculoCDB.Domain.csproj|solutionrelative:avaliacaodevcalculocdb.domain\\entities\\v1\\cdbinvestment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,93 +29,20 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Api\\Program.cs",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Api\\Program.cs",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Api\\Program.cs",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Api\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCAAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CdbInvestmentTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\Domain\\CdbInvestmentTests.cs",
+              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Tests\\Domain\\CdbInvestmentTests.cs",
+              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\Domain\\CdbInvestmentTests.cs",
+              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Tests\\Domain\\CdbInvestmentTests.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T17:19:08.553Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "main.ts",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\main.ts",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Web\\src\\main.ts",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\main.ts",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Web\\src\\main.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-04T16:54:32.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\index.html",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Web\\src\\index.html",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\index.html",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Web\\src\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-04T16:54:17.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "app.html",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\app\\app.html",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Web\\src\\app\\app.html",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\app\\app.html",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Web\\src\\app\\app.html",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAkwPAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-04T16:50:32.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "app.ts",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\app\\app.ts",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Web\\src\\app\\app.ts",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\app\\app.ts",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Web\\src\\app\\app.ts",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-04T16:50:29.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "app.spec.ts",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\app\\app.spec.ts",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Web\\src\\app\\app.spec.ts",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\app\\app.spec.ts",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Web\\src\\app\\app.spec.ts",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAWwBoAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-04T16:50:15.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "cdb-investment.ts",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\services\\cdb-investment.ts",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Web\\src\\services\\cdb-investment.ts",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Web\\src\\services\\cdb-investment.ts",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Web\\src\\services\\cdb-investment.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-04T16:48:18.372Z",
+              "WhenOpened": "2025-06-05T15:27:31.985Z",
               "EditorCaption": ""
             },
             {
@@ -150,34 +53,35 @@
               "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Application\\Services\\v1\\CdbInvestmentService.cs",
               "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Application\\Services\\v1\\CdbInvestmentService.cs",
               "RelativeToolTip": "AvaliacaoDevCalculoCDB.Application\\Services\\v1\\CdbInvestmentService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T14:20:16.552Z",
+              "WhenOpened": "2025-06-05T13:56:27.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICdbInvestmentService.cs",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Application\\Contracts\\v1\\Services\\ICdbInvestmentService.cs",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Application\\Contracts\\v1\\Services\\ICdbInvestmentService.cs",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Application\\Contracts\\v1\\Services\\ICdbInvestmentService.cs",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Application\\Contracts\\v1\\Services\\ICdbInvestmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CdbInvestment.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
+              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
+              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
+              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Domain\\Entities\\v1\\CdbInvestment.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T14:20:11.881Z"
+              "WhenOpened": "2025-06-05T13:54:45.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CdbInvestmentController.cs",
-              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Api\\Controllers\\CdbInvestmentController.cs",
-              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Api\\Controllers\\CdbInvestmentController.cs",
-              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Api\\Controllers\\CdbInvestmentController.cs",
-              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Api\\Controllers\\CdbInvestmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CdbInvestmentServiceTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\Service\\CdbInvestmentServiceTests.cs",
+              "RelativeDocumentMoniker": "AvaliacaoDevCalculoCDB.Tests\\Service\\CdbInvestmentServiceTests.cs",
+              "ToolTip": "C:\\Projetos\\Estudo\\avaliacao-dev-b3\\AvaliacaoDevCalculoCDB\\AvaliacaoDevCalculoCDB.Tests\\Service\\CdbInvestmentServiceTests.cs*",
+              "RelativeToolTip": "AvaliacaoDevCalculoCDB.Tests\\Service\\CdbInvestmentServiceTests.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T14:19:59.883Z",
+              "WhenOpened": "2025-06-05T13:41:03.303Z",
               "EditorCaption": ""
             }
           ]

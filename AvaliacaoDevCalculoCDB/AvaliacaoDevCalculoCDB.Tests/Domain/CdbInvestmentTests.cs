@@ -1,22 +1,58 @@
 ﻿using AvaliacaoDevCalculoCDB.Domain.Entities.v1;
+using AvaliacaoDevCalculoCDB.Domain.Resources.v1;
+using Xunit;
 
 namespace AvaliacaoDevCalculoCDB.Tests.Domain;
 
 public class CdbInvestmentTests
 {
     [Fact]
+    public void Constructor_ShouldSetInitialValue_WhenValidValueProvided()
+    {
+        // Arrange
+        decimal initialValue = 1000m;
+
+        // Act
+        var investment = new CdbInvestment(initialValue);
+
+        // Assert
+        Assert.Equal(initialValue, investment.InitialValue);
+    }
+
+    [Fact]
+    public void Constructor_ShouldThrowArgumentException_WhenInitialValueIsInvalid()
+    {
+        // Arrange
+        decimal invalidValue = 0m;
+
+        // Act & Assert
+        Assert.Throws<ArgumentException>(() => new CdbInvestment(invalidValue));
+    }
+
+    [Fact]
     public void Calculate_ShouldCalculateCorrectGrossAndNetReturn_ForValidMonths()
     {
         // Arrange
-        var investment = new CdbInvestment { InitialValue = 1000m };
+        var investment = new CdbInvestment(1000m);
         int months = 12;
 
         // Act
         investment.Calculate(months);
 
         // Assert
-        Assert.Equal(1123.08m, investment.GrossReturn); 
-        Assert.Equal(1098.46m, investment.NetReturn);  
+        Assert.Equal(1123.08m, investment.GrossReturn);
+        Assert.Equal(1098.46m, investment.NetReturn);
+    }
+
+    [Fact]
+    public void Calculate_ShouldThrowArgumentException_WhenMonthsAreInvalid()
+    {
+        // Arrange
+        var investment = new CdbInvestment(1000m);
+        int invalidMonths = 0;
+
+        // Act & Assert
+        Assert.Throws<ArgumentException>(() => investment.Calculate(invalidMonths));
     }
 
     [Theory]
@@ -31,19 +67,5 @@ public class CdbInvestmentTests
 
         // Assert
         Assert.Equal(expectedTaxRate, taxRate);
-    }
-
-    [Fact]
-    public void Calculate_ShouldHandleEdgeCasesForInitialValueZero()
-    {
-        // Arrange
-        var investment = new CdbInvestment { InitialValue = 0m };
-
-        // Act
-        investment.Calculate(12);
-
-        // Assert
-        Assert.Equal(0m, investment.GrossReturn);
-        Assert.Equal(0m, investment.NetReturn);
     }
 }

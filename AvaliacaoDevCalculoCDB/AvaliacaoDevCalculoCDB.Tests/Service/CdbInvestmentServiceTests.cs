@@ -18,21 +18,21 @@ public class CdbInvestmentServiceTests
     }
 
     [Fact]
-    public void CalculateCdbInvestment_ShouldReturnBadRequest_WhenInitialValueIsInvalid()
+    public void CalculateCdbInvestment_ShouldReturnBadRequest_WhenInitialValueIsZeroOrNegative()
     {
         // Arrange
         var dto = new CdbInvestmentRequestDto { InitialValue = 0, Months = 12 };
 
-        // Act
+        // Act & Assert
         var response = _service.CalculateCdbInvestment(dto);
 
         // Assert
         Assert.Equal(400, response.StatusCode);
-        Assert.Equal(Messages.InvalidInitialValue, response.Message);
+        Assert.Contains(Messages.InvalidInitialValue, response.Message);
     }
 
     [Fact]
-    public void CalculateCdbInvestment_ShouldReturnBadRequest_WhenMonthsIsInvalid()
+    public void CalculateCdbInvestment_ShouldReturnBadRequest_WhenMonthsIsLessThanOne()
     {
         // Arrange
         var dto = new CdbInvestmentRequestDto { InitialValue = 1000m, Months = 0 };
@@ -42,7 +42,7 @@ public class CdbInvestmentServiceTests
 
         // Assert
         Assert.Equal(400, response.StatusCode);
-        Assert.Equal(Messages.InvalidPeriod, response.Message);
+        Assert.Contains(Messages.InvalidPeriod, response.Message);
     }
 
     [Fact]
@@ -57,7 +57,7 @@ public class CdbInvestmentServiceTests
         // Assert
         Assert.Equal(200, response.StatusCode);
         Assert.NotNull(response.Data);
-        Assert.Equal(1123.08m, response.Data.GrossReturn); 
-        Assert.Equal(1098.46m, response.Data.NetReturn);  
+        Assert.Equal(1123.08m, response.Data.GrossReturn);
+        Assert.Equal(1098.46m, response.Data.NetReturn);
     }
 }

@@ -8,8 +8,21 @@ public class CdbInvestment
     public decimal GrossReturn { get; set; }
     public decimal NetReturn { get; set; }
 
+    private CdbInvestment() { }
+
+    public CdbInvestment(decimal initialValue)
+    {
+        if (initialValue <= 0)
+            throw new ArgumentException(Messages.InvalidInitialValue, nameof(initialValue));
+
+        InitialValue = initialValue;
+    }
+
     public void Calculate(int months)
     {
+        if (months < 1)
+            throw new ArgumentException(Messages.InvalidPeriod, nameof(months));
+
         GrossReturn = Math.Round(CalculateGrossReturn(months), 2);
         var taxRate = GetTaxRate(months);
         NetReturn = Math.Round(CalculateNetReturn(taxRate), 2);
@@ -19,9 +32,8 @@ public class CdbInvestment
     {
         decimal accumulatedValue = InitialValue;
         for (int i = 0; i < months; i++)
-        {
             accumulatedValue *= (1 + (Constants.CDI * Constants.TB));
-        }
+        
         return accumulatedValue;
     }
 
