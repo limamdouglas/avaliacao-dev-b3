@@ -1,6 +1,4 @@
 ﻿using AvaliacaoDevCalculoCDB.Domain.Entities.v1;
-using AvaliacaoDevCalculoCDB.Domain.Resources.v1;
-using Xunit;
 
 namespace AvaliacaoDevCalculoCDB.Tests.Domain;
 

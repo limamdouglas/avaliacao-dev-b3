@@ -31,7 +31,7 @@ public class CdbInvestmentService(ILogger<CdbInvestmentService> logger) : ICdbIn
         }
         catch (ArgumentException ex)
         {
-            _logger.LogWarning(ex, ex.Message);
+            _logger.LogWarning(ex, "An exception occurred: {Message}", ex.Message);
             return new Response<CdbInvestmentResponseDto>(400, ex.Message);
         }
         catch (Exception ex)

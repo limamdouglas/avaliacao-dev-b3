@@ -33,7 +33,7 @@ public class CdbInvestment
         decimal accumulatedValue = InitialValue;
         for (int i = 0; i < months; i++)
             accumulatedValue *= (1 + (Constants.CDI * Constants.TB));
-        
+
         return accumulatedValue;
     }
 
