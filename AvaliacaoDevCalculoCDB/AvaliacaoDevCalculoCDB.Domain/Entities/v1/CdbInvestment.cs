@@ -12,16 +12,16 @@ public class CdbInvestment
 
     public CdbInvestment(decimal initialValue)
     {
-        if (initialValue <= 0)
-            throw new ArgumentException(Messages.InvalidInitialValue, nameof(initialValue));
+        if (initialValue <= Constants.MinimalInitialValue)
+            throw new ArgumentException(Messages.InvalidInitialValue);
 
         InitialValue = initialValue;
     }
 
     public void Calculate(int months)
     {
-        if (months < 1)
-            throw new ArgumentException(Messages.InvalidPeriod, nameof(months));
+        if (months <= Constants.MinimalPeriod)
+            throw new ArgumentException(Messages.InvalidPeriod);
 
         GrossReturn = Math.Round(CalculateGrossReturn(months), 2);
         var taxRate = GetTaxRate(months);

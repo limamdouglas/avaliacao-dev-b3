@@ -1,4 +1,5 @@
 ﻿using AvaliacaoDevCalculoCDB.Domain.Entities.v1;
+using AvaliacaoDevCalculoCDB.Domain.Resources.v1;
 
 namespace AvaliacaoDevCalculoCDB.Tests.Domain;
 
@@ -21,7 +22,7 @@ public class CdbInvestmentTests
     public void Constructor_ShouldThrowArgumentException_WhenInitialValueIsInvalid()
     {
         // Arrange
-        decimal invalidValue = 0m;
+        decimal invalidValue = Constants.MinimalInitialValue;
 
         // Act & Assert
         Assert.Throws<ArgumentException>(() => new CdbInvestment(invalidValue));
@@ -47,7 +48,7 @@ public class CdbInvestmentTests
     {
         // Arrange
         var investment = new CdbInvestment(1000m);
-        int invalidMonths = 0;
+        int invalidMonths = Constants.MinimalPeriod;
 
         // Act & Assert
         Assert.Throws<ArgumentException>(() => investment.Calculate(invalidMonths));

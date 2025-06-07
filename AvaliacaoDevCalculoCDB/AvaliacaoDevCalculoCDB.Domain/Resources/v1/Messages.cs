@@ -2,14 +2,15 @@
 
 public static class Messages
 {
-    public const string ServiceStart = "Starting CdbInvestmentService.";
-    public const string ServiceEnd = "Finished CdbInvestmentService.";
+    public const string ServiceStart = "Iniciando {ServiceName}.";
+    public const string ServiceEnd = "Finalizando {ServiceName}.";
 
-    public const string CalculationSuccessLog = "Calculation completed successfully for initial value: {InitialValue}, months: {Months}.";
+    public const string CalculationSuccessLog = "Cálculo concluído com sucesso para valor inicial: {InitialValue}, meses: {Months}.";
 
-    public const string InvalidInitialValue = "The initial value must be greater than zero.";
-    public const string InvalidPeriod = "The period must be greater than zero.";
-    public const string CalculationSuccess = "Calculation completed successfully.";
+    public const string InvalidInitialValue = "O valor inicial deve ser maior que zero.";
+    public const string InvalidPeriod = "O período deve ser maior que 1 para ser válido.";
+    public const string CalculationSuccess = "Cálculo concluído com sucesso.";
 
-    public const string UnexpectedError = "An unexpected error occurred while calculating CDB investment.";
+    public const string UnexpectedError = "Ocorreu um erro inesperado ao calcular o investimento em CDB.";
+
 }

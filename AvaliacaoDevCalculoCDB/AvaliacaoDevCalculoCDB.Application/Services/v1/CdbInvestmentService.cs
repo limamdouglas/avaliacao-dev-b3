@@ -10,10 +10,9 @@ namespace AvaliacaoDevCalculoCDB.Application.Services.v1;
 public class CdbInvestmentService(ILogger<CdbInvestmentService> logger) : ICdbInvestmentService
 {
     private readonly ILogger<CdbInvestmentService> _logger = logger;
-
     public Response<CdbInvestmentResponseDto> CalculateCdbInvestment(CdbInvestmentRequestDto dto)
     {
-        _logger.LogInformation(Messages.ServiceStart);
+        _logger.LogInformation(Messages.ServiceStart, nameof(CdbInvestmentService));
 
         try
         {
@@ -41,7 +40,7 @@ public class CdbInvestmentService(ILogger<CdbInvestmentService> logger) : ICdbIn
         }
         finally
         {
-            _logger.LogInformation(Messages.ServiceEnd);
+            _logger.LogInformation(Messages.ServiceEnd, nameof(CdbInvestmentService));
         }
     }
 }
