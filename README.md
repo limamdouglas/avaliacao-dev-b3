@@ -2,6 +2,8 @@ AvaliacaoDevCalculoCDB
 
 Este projeto consiste em uma API desenvolvida em C# .NET 8 e um frontend em Angular 20 para realizar cálculos de investimentos em CDB (Certificado de Depósito Bancário). Ele foi projetado com arquitetura em camadas, promovendo a separação de responsabilidades e manutenção simplificada.
 
+A aplicação backend está publicada no serviço de nuvem AWS App Runner, garantindo alta disponibilidade e escalabilidade automática.
+
 1 - Estrutura do Projeto
 
 A solução é composta por 5 projetos principais:
@@ -23,6 +25,8 @@ A solução é composta por 5 projetos principais:
 - Frontend:
     - Angular 20
     - HttpClient para consumo da API
+	
+- Docker: Utilizado para criar imagens padronizadas e consistentes para execução da aplicação em diferentes ambientes.
 
 3 - Configuração e Execução
 Requisitos:
@@ -36,7 +40,11 @@ Backend
     Execute o comando:
     dotnet run
     A API estará disponível em https://localhost:7176.
+	
+	Teste os endpoints diretamente pelo Postman no ambiente de desenvolvimento:
 
+	Desenvolvimento: https://qdftdknygq.us-east-1.awsapprunner.com/api/v1/CdbInvestment/calculate
+	
 Frontend
 
     Navegue até a pasta do projeto Angular.
