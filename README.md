@@ -1,10 +1,10 @@
-AvaliacaoDevCalculoCDB
+# AvaliacaoDevCalculoCDB
 
 Este projeto consiste em uma API desenvolvida em C# .NET 8 e um frontend em Angular 20 para realizar cálculos de investimentos em CDB (Certificado de Depósito Bancário). Ele foi projetado com arquitetura em camadas, promovendo a separação de responsabilidades e manutenção simplificada.
 
-A aplicação backend está publicada no serviço de nuvem AWS App Runner, garantindo alta disponibilidade e escalabilidade automática.
+#### A aplicação backend está publicada no serviço de nuvem AWS App Runner, garantindo alta disponibilidade e escalabilidade automática.
 
-1 - Estrutura do Projeto
+## 1 - Estrutura do Projeto
 
 A solução é composta por 5 projetos principais:
 
@@ -14,26 +14,26 @@ A solução é composta por 5 projetos principais:
     - AvaliacaoDevCalculoCDB.Tests: Inclui testes unitários para validação do sistema.
     - Frontend Angular (fora da solução C#): Interface para o usuário interagir com o sistema.
 
-2 - Tecnologias Utilizadas
-- Backend:
+## 2 - Tecnologias Utilizadas
+#### - Backend:
     - C# .NET 8
     - ASP.NET Core
     - Arquitetura em camadas (API, Application, Domain)
     - Logging com ILogger
     - Testes unitários com XUnit
 
-- Frontend:
+#### - Frontend:
     - Angular 20
     - HttpClient para consumo da API
 	
 - Docker: Utilizado para criar imagens padronizadas e consistentes para execução da aplicação em diferentes ambientes.
 
-3 - Configuração e Execução
+## 3 - Configuração e Execução
 Requisitos:
   - .NET SDK 8.0 ou superior
   - Node.js 18 ou superior (para o Angular)
 
-Backend
+#### Backend
 
     Clone o repositório.
     Navegue até a pasta AvaliacaoDevCalculoCDB.Api.
@@ -45,7 +45,7 @@ Backend
 
 	Desenvolvimento: https://qdftdknygq.us-east-1.awsapprunner.com/api/v1/CdbInvestment/calculate
 	
-Frontend
+#### Frontend
 
     Navegue até a pasta do projeto Angular.
     Instale as dependências:
@@ -54,9 +54,9 @@ Frontend
     ng serve
     Acesse a aplicação em http://localhost:4200.
 
-4 - Funcionalidades
+## 4 - Funcionalidades
 
-API Endpoints
+#### API Endpoints
 
   - POST /api/v1/CdbInvestment/calculate: Calcula os rendimentos de um investimento em CDB com base nos valores informados pelo usuário.
 
@@ -81,13 +81,13 @@ Frontend
   - Interface simples que permite o envio de dados (valor inicial e período) para a API.
   - Exibe os resultados calculados ou mensagens de erro.
 
-5 - Testes
+## 5 - Testes
 
   Os testes unitários estão localizados no projeto AvaliacaoDevCalculoCDB.Tests.
   Para executar os testes:
   dotnet test
 
-6 - Contato
+## 6 - Contato
   
   Em caso de dúvidas ou sugestões, entre em contato:
   
